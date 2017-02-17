@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-ios-no-export-compliance" version="0.0.1">
+    <name>iOS APS Environment</name>
+    <description>This plugin sets ITSAppUsesNonExemptEncryption to false in *-Info.plist file</description>
+    <license>BSD-3</license>
+    <engines>
+        <engine name="cordova" version=">=3.0.0" />
+    </engines>
+    <!-- ios -->
+    <platform name="ios">
+	<config-file target="*-Debug.plist" parent="aps-environment">
+	      <string>development</string>
+	</config-file>
+    	<config-file target="*-Release.plist" parent="aps-environment">
+      		<string>production</string>
+    	</config-file>
+    </platform>
+</plugin>
