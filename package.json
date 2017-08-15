@@ -1,0 +1,31 @@
+{
+  "name": "cordova-plugin-ios-aps-environment",
+  "version": "0.1.1",
+  "description": "This plugin sets ITSAppUsesNonExemptEncryption to false in *-Info.plist file",
+  "cordova": {
+    "id": "cordova-plugin-ios-aps-environment",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Waracle/cordova-plugin-ios-aps-environment.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "Nick Hammond <n.hammond@waracle.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Waracle/cordova-plugin-ios-aps-environment/issues"
+  },
+  "homepage": "https://github.com/Waracle/cordova-plugin-ios-aps-environment#readme"
+}
